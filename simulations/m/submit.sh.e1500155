@@ -1,0 +1,50 @@
+Loading required package: abind
+Loading required package: ggplot2
+Loading required package: methods
+Loading required package: plyr
+Loading required package: dplyr
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:plyr':
+
+    arrange, count, desc, failwith, id, mutate, rename, summarise,
+    summarize
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: tidyr
+Loading required package: mvtnorm
+Loading required package: lme4
+Loading required package: Matrix
+
+Attaching package: 'Matrix'
+
+The following object is masked from 'package:tidyr':
+
+    expand
+
+Loading required package: stringr
+Loading required package: grid
+Loading required package: gridExtra
+
+Attaching package: 'gridExtra'
+
+The following object is masked from 'package:dplyr':
+
+    combine
+
+Loading required package: RColorBrewer
+Loading required package: nnet
+Warning messages:
+1: In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+  Model failed to converge with max|grad| = 0.117412 (tol = 0.001, component 1)
+2: In checkConv(attr(opt, "derivs"), opt$par, ctrl = control$checkConv,  :
+  Model is nearly unidentifiable: very large eigenvalue
+ - Rescale variables?
